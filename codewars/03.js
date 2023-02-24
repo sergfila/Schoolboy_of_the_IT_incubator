@@ -5,7 +5,7 @@ function alphabetPosition(text) {
 
     for (let item of text) {
         let table = item.charCodeAt() - 96;
-        if (table > 0 && table < 26)
+        if (table > 0 && table <= 26)
             result += table + ' ';
     }
 
