@@ -9,7 +9,7 @@ function alphabetPosition(text) {
             result += table + ' ';
     }
 
-    return result.slice(0, -1); ;
+    return result.slice(0, -1);
 }
 
 let str = "The sunset sets at twelve o' clock."
